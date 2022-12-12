@@ -7,15 +7,17 @@
 // enilA aruaL
 
 
-function invertirCadena(cad) {
+// function invertirCadena(cad) 
 
-    let nuevaCadena = "Laura Aline";
- 
-    
-    for (let i = cad.length - 1; i >= 0; i--) { 
-        nuevaCadena += cad[i]; 
+
+    function reves(str) {
+        let tempStr="";
+    for (let i = str.length - 1; i >= 0; i--) {
+        tempStr += str.charAt(i); 
     }
-    return nuevaCadena;   
+        return tempStr;  
+    
+     
 }
  
-console.log( invertirCadena ("Laura Aline "));
+// console.log( invertirCadena ("Laura Aline "));
