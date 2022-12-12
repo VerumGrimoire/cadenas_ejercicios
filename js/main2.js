@@ -21,3 +21,16 @@
 }
  
 // console.log( invertirCadena ("Laura Aline "));
+
+
+//Reconocer un Palíndromo
+
+function esPalindromo(str){
+    str =str.toLowerCase();
+
+    if (reves(str)==str) 
+        return true;
+
+
+    return false;
+}
