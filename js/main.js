@@ -29,10 +29,11 @@ for (let contador = 0; contador < char; contador++){
 
 console.log(duplicados1);
 
-
 }
 
-let nombre = "Abraham"
+
+
+    let nombre = "Abraham"
 nombre = nombre.toUpperCase();
 let letra="";
 let contFinal=0;
@@ -48,5 +49,6 @@ for (let index =0; index < nombre.length; index++) {
         letra = nombre.charAt(index);
     }
 }
+
 
 console.log(letra, contFinal);

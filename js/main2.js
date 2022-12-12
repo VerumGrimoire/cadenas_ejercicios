@@ -9,16 +9,13 @@
 
 function invertirCadena(cad) {
 
-    var nuevaCadena = "Laura Aline";
+    let nuevaCadena = "Laura Aline";
  
     
-    for (var i = cad.length - 1; i >= 0; i--) { 
+    for (let i = cad.length - 1; i >= 0; i--) { 
         nuevaCadena += cad[i]; 
     }
-    
-    return nuevaCadena;
-
-   
+    return nuevaCadena;   
 }
  
-invertirCadena();
+console.log( invertirCadena ("Laura Aline "));
